@@ -5,4 +5,6 @@ AngularCasts::Application.routes.draw do
     get "/screencasts/:id(.:format)" => "screencasts#show"
   end
 
+  root to: "home#index"
+
 end
